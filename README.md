@@ -14,17 +14,17 @@ If you use the scripts or dataset, please cite:
     }
 
 
-The scripts as described below will generate the dataset and evaluate YOLO using Ultralytics.
+The scripts as described below will generate the dataset and evaluate YOLO using [Ultralytics](https://github.com/ultralytics/ultralytics).
 
 ## Prerequisites
-- Download coco dataset to the datasets folder or create a symbolic link using, for exxample:
+- Download coco dataset to the datasets folder or create a symbolic link using, for example:
 
-    ln -s /data/YOLO/datasets/coco/ ./datasets/coco
+      ln -s /data/YOLO/datasets/coco/ ./datasets/coco
 
 - Place the YOLO models in the models folder or use download_models.sh to download them.
 - Install pip dependencies:
 
-    pip install -r requirements.txt
+      pip install -r requirements.txt
 
 ## Usage
 Run the ultralytics docker container by mounting the current directory:
