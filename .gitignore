@@ -1,0 +1,4 @@
+datasets/*coco
+datasets/*.yaml
+datasets/*.zip
+results/

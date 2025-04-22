@@ -1,0 +1,2 @@
+scikit-image==0.24 # dependency for reduce_color_de_folder.py
+ultralytics
